@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+.example-container {
+  height: 100%;
+}
+
+mat-sidenav {
+  width: 250px;
+}
+
+.main-content {
+  padding: 16px;
+}
+
+@media (max-width: 768px) {
+  mat-sidenav {
+    width: 200px;
+  }
+  .main-content {
+    padding: 8px;
+  }
+}
+
+html, body {
+  min-width: 1280px;
+  min-height: 768px;
+  height: 100%;
+
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.titulo-card {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.subtitulo-card {
+  font-size: 1.1rem;
+}
+
+.card {
+  height: 100%;
+}
