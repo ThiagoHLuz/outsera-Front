@@ -5,8 +5,9 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app.routes';
 import { NgxPaginationModule } from 'ngx-pagination';
-import {AppComponent} from "./app.component";
-import {CommonModule} from "@angular/common";
+import { AppComponent} from "./app.component";
+import { CommonModule} from "@angular/common";
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -21,7 +22,8 @@ import {CommonModule} from "@angular/common";
     FormsModule,
     NgxPaginationModule,
     BrowserAnimationsModule,
-    CommonModule
+    CommonModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
